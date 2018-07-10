@@ -10,7 +10,6 @@ import { Provider } from 'react-redux';
 
 
 //createStore always takes the reducer as an argument
-
 const store = createStore(postReducer);
 
 
