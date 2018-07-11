@@ -9,7 +9,8 @@ class PostForm extends Component{
     const data = { //we will pass this object
       id: new Date(),
       title,
-      message
+      message,
+      editing: false //For crUPDATEd
     }
     //dispatch the action
     //Looks like we're gettign  the data form the form in this compopnent
