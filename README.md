@@ -9,6 +9,7 @@ npm start
 `Reducers`
 << Only have One for POSTS
 
+
 `Actions`
 << Maybe for Simplicty, but no Action file, just used Dispatch to chuck the Action to the Reducer we used
 << Really, look at PostForm.js, on Form Submit, chuck form input values to a data Object, and data object we get into Dispatch Action
@@ -46,9 +47,9 @@ npm start
 
 `Post.js`
 << Has Button to DELETE Action and EDIT_POST action ie show Edit Component
-<<Uses Connect (*duh*)
+<<Uses Connect 
 
 `EditComponent.js`
 << Uses UPDATE action to give our data object NewTitle, NewMessage
-<<On Submit dispatches Update Action to update the store 
+<<On Submit dispatches Update Action to update the store
 <<Uses Connect
