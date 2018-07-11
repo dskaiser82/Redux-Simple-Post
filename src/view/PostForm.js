@@ -23,8 +23,7 @@ class PostForm extends Component{
     this.getTitle.value = '';
     this.getMessage.value = '';
 
-
-  }
+  } //end handleSubmit
 
   render() {
   return (
