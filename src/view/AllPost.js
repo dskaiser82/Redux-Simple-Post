@@ -16,6 +16,7 @@ class AllPost extends Component {
   }
 }
 
+{/*Mapping State to accessible Prop for this compnent here */}
 const mapStateToProps = (state) => {
     return {
         posts: state
